@@ -129,6 +129,14 @@ main{
    padding:50px 240px;
    text-align: center;
 }
+.sponsors-img-container img{
+   width:15%;
+}
+.sponsors-img-container{
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-evenly;
+}
 
 
 
@@ -141,7 +149,9 @@ main{
 
 /*------------responsive-----------------*/
 @media screen and (max-width:576px) {
-    header, .teams-container,.facts{
+    header, .teams-container,
+    .facts,
+    .sponsors{
         padding: 20px;
      }
      nav, .teams-container,.card-container{
@@ -161,7 +171,9 @@ main{
 
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    header,.teams-container,.facts{
+    header,.teams-container,
+    .facts,
+    .sponsors{
         padding: 50px;
      }
      nav, .teams-container{
@@ -182,7 +194,8 @@ main{
 
 
 @media screen and (min-width:992px) and (max-width:1200px) {
-    header,.teams-container, .facts{
+    header,.teams-container,
+     .facts, .sponsors{
         padding: 80px;
      }
      nav .teams-container{
