@@ -96,6 +96,62 @@ main{
     color:#ff900e;
 }
 
+
+/*---------------features section-------------*/
+.features-container{
+   padding: 50px 240px;
+   display: flex;
+   gap: 100Px;
+}
+.title{
+   margin-top: 0;
+   margin-bottom: 0;
+   font-size: 2rem;
+   font-weight: 700;
+   color:#030202;
+   padding-left: 20px;
+   border-left: 5px solid #ff900e;
+}
+.feature-contant{
+   width: 50%;
+}
+.feature-contant .card{
+   padding: 10px;
+   margin-bottom: 10px;
+   box-shadow: 0px 4px 30px 0px rgba(0,0,0,0.06);
+}
+
+.feature-img{
+   width: 50%;
+   height: auto;
+   
+}
+.feature-img img{
+   width: 100%;
+}
+
+.ten-years-badge{
+   background-color: #ff900e;
+   border-radius: 8px;
+   color:#fff;
+   padding: 20px;
+   width: 140px;
+   text-align: center;
+   position: relative;
+   bottom:50px;
+   left: -40px;
+}
+.ten-years-badge h2{
+   font-size: 1.25rem;
+   margin-top: 0;
+}
+.ten-years-badge p{
+   margin-bottom: 0;
+   font-size: 1rem;
+   font-weight: 500;
+}
+
+
 /*----------------facts section--------------*/
 
 .facts{
@@ -138,7 +194,16 @@ main{
    justify-content: space-evenly;
 }
 
-
+footer{
+ background-color: #ff900e1a; 
+ text-align: center;
+ padding: 15px;
+}
+footer p{
+   font-size: 20px;
+   font-weight: 500;
+   color:#555;
+}
 
 
 
@@ -154,7 +219,13 @@ main{
     .sponsors{
         padding: 20px;
      }
-     nav, .teams-container,.card-container{
+     .features-container{
+      padding: 80px 20px 10px;
+      
+   }
+     nav, .teams-container,
+     .card-container,
+     .features-container{
         flex-direction: column;
      }
     .teams-img-container{
@@ -166,6 +237,12 @@ main{
      .card-container{
       gap:20px;
      }
+     .feature-contant{
+      width: 100%;
+   }
+   .feature-img{
+      width: 100%;
+   }
 }
 
 
@@ -176,7 +253,12 @@ main{
     .sponsors{
         padding: 50px;
      }
-     nav, .teams-container{
+
+     .features-container{
+      padding:80px 100px 10px;
+   }
+     nav, .teams-container,
+     .features-container{
         flex-direction: column;
      }
      .card-container{
@@ -188,6 +270,12 @@ main{
      .card-container{
       gap:20px;
      }
+     .feature-contant{
+      width: 100%;
+   }
+   .feature-img{
+      width: 100%;
+   }
 }
 
 
@@ -198,11 +286,17 @@ main{
      .facts, .sponsors{
         padding: 80px;
      }
+     .features-container{
+      padding: 100px;
+     }
      nav .teams-container{
         flex-direction: column;
      }
      .teams-contant{
         width: 100%;
+     }
+     .features-container{
+      align-items: center;
      }
 }
 
